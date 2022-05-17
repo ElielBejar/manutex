@@ -1,0 +1,50 @@
+@media(max-width:800px){
+    .logo_img, .portada, .menu ul{
+        display:none;
+    }
+    header{
+        width:100%;
+        display:inline-block;
+       /* padding:1rem;*/
+        background-color: black;
+    }
+    nav{
+        width:80%;
+        display:inline-block;
+    }
+    .menu_responsive{
+        margin:0.5rem;
+        cursor:pointer;
+        display:inline-block;
+        width:25px;
+        height:auto;
+    }
+    .search{
+        width:100%;
+        margin-top:0.5rem;
+    }
+    .search input{
+        width:80%;
+    }
+    nav{ 
+        margin-top:0;
+        margin-bottom:1rem;
+    }
+    .nav_responsive{
+        z-index:100;
+        display:block;
+        left:-100%;
+        position:absolute;
+        height:100%;
+    }
+    .nav_responsive ul li{
+        width:100%;
+        display:block;
+    }
+    footer{
+        border-radius:0%;
+    }
+    footer img{
+        width:10%;
+    }
+}
